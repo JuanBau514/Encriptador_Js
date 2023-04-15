@@ -1,0 +1,22 @@
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.label-success {
+    color: #0A3871;
+}
+
+.label input {
+    background-color: transparent;
+  }
+  
+  .label input::placeholder {
+
+    color: #0A3871;
+    opacity: 1;
+  }
