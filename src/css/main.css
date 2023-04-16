@@ -1,22 +1,108 @@
-label {
-    display: block;
-    margin-bottom: 0.5em;
-    font-weight: bold;
-    font-size: 0.9em;
-    text-transform: uppercase;
+.texto{
+    position: absolute;
     background-color: transparent;
+    color-scheme: transparent;
+    width: 40%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 15%;
+    top: 15%;
+ 
 }
 
-.label-success {
-    color: #0A3871;
+input {
+  background-color: transparent;
+  border: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 100%;
+  height: 100%;
 }
 
-.label input {
-    background-color: transparent;
-  }
-  
-  .label input::placeholder {
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 
-    color: #0A3871;
-    opacity: 1;
-  }
+
+.bottons{
+  position: absolute;
+  left : 35%;
+  bottom: 12%;
+}
+
+.bottons input{
+  border: 2px solid #0A3871;
+  border-radius: 25px;
+  width: 7cm;
+  height: 2cm;
+  font-size: 15px;
+}
+
+.Encriptar{
+  background-color: #0A3871;
+  color: white;
+}
+
+.Encriptar:hover{
+  background-color: white;
+  color: #0A3871;
+  cursor: pointer;
+}
+
+.Desencriptar{
+  background-color: white;
+  color: #0A3871;
+  position: relative;
+  left: 15%;
+}
+
+.Desencriptar:hover{
+  background-color: #0A3871;
+  color: white;
+  cursor: pointer;
+}
+
+.Rectangulo-resultados {
+  border: 2px solid #0A3871;
+  border-radius: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 40%;
+  margin: 10px;
+  position: absolute;
+  left: 75%;
+}
+
+.Rectangulo-resultados p{
+  width: 100%;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0A3871;
+  position: absolute;
+  left: 10%;
+  top: 4%;
+}
+
+.Rectangulo-resultados input {
+  position: absolute;
+  border-radius: 30px;
+  border: 2px solid black;
+  border-color: #0A3871;
+  background-color: white;
+  width: 45%;
+  height: 10%;
+  left: 25%;
+  bottom: 5%;
+  font-size: 15px;
+}
+
+.Rectangulo-resultados input:hover{
+  background-color: #0A3871;
+  color: white;
+}
